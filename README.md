@@ -1,4 +1,4 @@
-**Android Docker Image for Building and Deploying Apps to Google Play Store**
+## Android Docker Image for Building and Deploying Apps to Google Play Store
 
 This Docker image is designed to streamline the process of building and deploying Android applications to the Google Play Store. It includes the Android SDK and Fastlane, enabling developers to easily integrate the process into their CI/CD pipelines.
 
@@ -176,7 +176,3 @@ jobs:
 ```
 ## License:
 This Docker image is licensed under the [MIT] License.
-## Maintainer
-
-- [@Mohamed Helmy](https://www.github.com/mohamed-helmy)
-
