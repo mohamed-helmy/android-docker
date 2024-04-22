@@ -39,7 +39,7 @@ RUN /opt/android-sdk-linux/cmdline-tools/tools/bin/sdkmanager "cmdline-tools;lat
     && /opt/android-sdk-linux/cmdline-tools/tools/bin/sdkmanager "system-images;android-34;google_apis;x86_64"
 
 # Install FastLane dependencies
-RUN apt install ruby-full -y \
+RUN apt install ruby-full build-essential -y \
     && gem install fastlane -NV \
     && fastlane --version
 
