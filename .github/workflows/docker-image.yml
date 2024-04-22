@@ -29,10 +29,18 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 
-    - name: Build and push
+    - name: Build and push android 34
       uses: docker/build-push-action@v2
       with:
         context: ./android34
         file: ./android34/Dockerfile
         push: true
         tags: mohamedhelmy/android-docker:34
+
+    - name: Build and push android 33
+      uses: docker/build-push-action@v2
+      with:
+        context: ./android33
+        file: ./android33/Dockerfile
+        push: true
+        tags: mohamedhelmy/android-docker:33
