@@ -1,8 +1,6 @@
-# Maintainer information
-MAINTAINER Mohamed Helmy <helmy419@gmail.com>
-
-# Base image
 FROM ubuntu:20.04
+
+MAINTAINER Mohamed Helmy <helmy419@gmail.com>
 
 # Environment variables
 ENV LANG=en_US.UTF-8 \
