@@ -33,6 +33,6 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         context: ./android34
-        file: ./Dockerfile
+        file: ./android34/Dockerfile
         push: true
         tags: mohamedhelmy/android-docker:34
