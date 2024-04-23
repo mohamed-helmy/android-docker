@@ -1,5 +1,7 @@
 ## Android Docker Image for Building and Deploying Apps to Google Play Store
 
+![main](https://github.com/mohamed-helmy/android-docker/actions/workflows/docker-image.yml/badge.svg)
+
 This Docker image is designed to streamline the process of building and deploying Android applications to the Google Play Store. It includes the Android SDK and Fastlane, enabling developers to easily integrate the process into their CI/CD pipelines.
 
 ### Features:
