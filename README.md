@@ -9,7 +9,7 @@ This Docker image is designed to streamline the process of building and deployin
 - **Android SDK**: The latest Android SDK is pre-installed, allowing you to build and package your Android apps.
 - **Fastlane**: Fastlane is installed, simplifying the process of building and deploying Android apps. It automates tedious tasks, such as generating screenshots, code signing, and releasing apps.
 ### Supported Tags
-- `mohamedhelmy/android-docker:24`
+- `mohamedhelmy/android-docker:34`
 - `mohamedhelmy/android-docker:33`
 - `mohamedhelmy/android-docker:32`
 - `mohamedhelmy/android-docker:31`
